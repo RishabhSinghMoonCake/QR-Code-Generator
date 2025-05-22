@@ -21,7 +21,7 @@ class QrGenerator{
 const qrGen = new QrGenerator();
 
 document.querySelector('.enter').addEventListener('click',()=>{
-  const inputText = document.querySelector('js-input').value;
+  const inputText = document.querySelector('.js-input').value;
   qrGen.Generate(inputText);
 });
 
