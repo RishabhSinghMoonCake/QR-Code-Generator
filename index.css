@@ -2,8 +2,52 @@
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
 }
 
 body{
   background-color: rgb(47, 55, 56);
+}
+
+.container{
+  max-width: 500px;
+  background-color: aliceblue;
+  padding: 25px 25px;
+  margin: 300px auto 0 auto;
+  border-radius: 25px;
+
+}
+
+.container h1{
+  font-size: larger;
+  margin-bottom: 20px;
+}
+.container input{
+  height: 60px;
+  width: 95%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: large;
+  margin: 10px 0 10px 0;
+  font-weight: 500;
+}
+
+.container button{
+  background-color: rgb(88, 202, 255);
+  height: 60px;
+  width: 100%;
+  margin: 20px 0 10px 0;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px rgb(13, 143, 204);
+  color: white;
+  font-size: larger;
+  
+}
+
+.container button:active{
+  box-shadow: none;
+  translate: 2px 2px;
 }
